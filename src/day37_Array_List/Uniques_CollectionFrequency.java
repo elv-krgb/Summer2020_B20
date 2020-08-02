@@ -1,4 +1,4 @@
-package day37Array_List;
+package day37_Array_List;
 
 import java.util.ArrayList;
 import java.util.Collections;
