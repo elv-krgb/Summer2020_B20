@@ -29,6 +29,7 @@ public class BulkOperations_Practice {
         System.out.println(r2); // false (((((((
 
         System.out.println("===============================================");
+
         // remove all the names "Ahmed"
         ArrayList<String> employeeName = new ArrayList<>();
         employeeName.addAll(Arrays.asList("Aslan", "Beslan", "Meerim", "Ahmed","Ahmed"));
