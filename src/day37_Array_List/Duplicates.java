@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class Duplicates {
     public static void main(String[] args) {
-        // remove names that are not atart and end with the same character
+        // remove names that are not start and end with the same character
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(1,1,2,3,3,4,4,5,6,7,8));
         list.removeIf(p -> Collections.frequency(list, p) ==1 );

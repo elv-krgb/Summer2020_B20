@@ -12,7 +12,7 @@ public class Practice {
 
         for(int i=0; i<=list.size()-1; i++){
             if(list.get(i) <5 ){
-                list.remove(i);
+                list.remove(i); // do not use in loop
             }
         }
         System.out.println(list); //[1, 2, 3, 4, 5, 6, 6, 7, 7] because index i got shifted
